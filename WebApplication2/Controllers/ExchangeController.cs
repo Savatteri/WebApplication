@@ -40,9 +40,9 @@ namespace WebApplication2.Controllers
         public async Task<IActionResult> PostExchangeModelsItemAsync([FromBody] ExchangeModels em)
         {
             var value = em.Value;
-            var tocurrency = em.ToCurrency;
+            var tocurrency = em.ToCurrency.ToUpper();
             //rateresult is a list of rates
-            var ratesresult = await es.GetCurrenciesAsync(em.FromCurrency);
+            var ratesresult = await es.GetCurrenciesAsync(em.FromCurrency.ToUpper());
             var result = ratesresult.FindCurrency(tocurrency);
             result = result * value;
             return Ok(result);

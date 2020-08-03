@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OGGFvCDXJ1DwTvt0uJsvRnn0DRDO8Rp+Y3f82g2Wgqh2XvUJ8Z9wPQxwc/OWuxzq9eXmW0v6r5p/NDGSlkTbXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\giusa\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\giusa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\giusa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\giusa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\giusa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
